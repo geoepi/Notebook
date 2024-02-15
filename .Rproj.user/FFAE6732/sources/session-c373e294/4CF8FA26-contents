@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "GeoEpi Laboratory"
@@ -14,8 +15,16 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    code-background: true
+    code-copy: true
+    css: style.css
+    toc: true
+    fontsize: 12pt
+    monofont: "Source Code Pro"
   pdf:
-    documentclass: scrreprt
+    documentclass: krantz
+    keep-tex: true
+    cite-method: natbib
 
 
 

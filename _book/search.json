@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "handbook",
+    "title": "GeoEpi Laboratory",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Research Notebook\nUNDER CONTSRUCTION\n\n\nTest Code\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "intro.html",
@@ -26,5 +26,12 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "index.html#geographical-epidemiology-laboratory-research-notebook",
+    "href": "index.html#geographical-epidemiology-laboratory-research-notebook",
+    "title": "GeoEpi Notebook",
+    "section": "Geographical Epidemiology Laboratory Research Notebook",
+    "text": "Geographical Epidemiology Laboratory Research Notebook\nUNDER CONTSRUCTION\n\nTest Code\n\n1 + 1\n\n[1] 2"
   }
 ]

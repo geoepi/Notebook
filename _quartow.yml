@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+  freeze: auto
+  
+website:
+  page-navigation: true
+  site-url: https://geoepi.github.io/Notebook/
+  repo-actions: [edit, source, issue]  
+  open-graph: true
+  sidebar:
+    style: "floating"
+    logo: images/globe.png
+    align: center
+    search: true
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/geoepi/Notebook
+          - text: Report a Bug
+            url:  https://github.com/geoepi/Notebook/issues
+    contents:
+      - section: "Overview"
+        contents:
+          - intro.qmd
+          - summary.qmd
+          - references.qmd
+      - text: "---"
+      
+bibliography: references.bib
+      
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    revealjs:
+      #logo: images/logo-bg.png
+      css: scss/styles.css
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    highlight-style: gruvbox
+    df-print: kable
+    
+editor: visual

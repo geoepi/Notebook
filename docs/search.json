@@ -2,8 +2,57 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "GeoEpi Laboratory",
+    "title": "GeoEpi Notebook",
     "section": "",
-    "text": "Research Notebook\nUNDER CONTSRUCTION\n\n\nTest Code\n\n1 + 1\n\n[1] 2"
+    "text": "The GeoEpi Research Group\nThe GeoEpi (Geographical Epidemiology) Group conducts research on animal disease transmission and outbreak dynamics. Using advanced statistical modeling, bioinformatics, and artificial intelligence, our work spans the molecular to landscape scales to reveal crucial insights into the ecology and management of foreign, transboundary, emerging, and zoonotic animal diseases."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "\n1  Introduction\n",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n2 Stuff 1\n\n3 Stuff 2\n\n4 References\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "\n2  Summary\n",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "index.html#the-geoepi-research-group",
+    "href": "index.html#the-geoepi-research-group",
+    "title": "GeoEpi Notebook",
+    "section": "The GeoEpi Research Group",
+    "text": "The GeoEpi Research Group\nThe GeoEpi Group investigates animal disease transmission and outbreak dynamics. Leveraging statistical and mathematical modeling, bioinformatics, and artificial intelligence, our work aims to bridge the molecular and landscape scales to reveal insights into the ecology and spatiotemporal dynamics of foreign, transboundary, emerging, and zoonotic animal diseases.\nThe GeoEpi Notebook is a resource designed for and by lab members and collaborators engaged in geographical epidemiology and data science. The notebook establishes and promotes best practices, standards, and guidelines critical for reproducible science in scientific computing, coding, data management, and modeling.\n\n\n\nGeoEpi website"
+  },
+  {
+    "objectID": "start.html",
+    "href": "start.html",
+    "title": "Notebook Overview",
+    "section": "",
+    "text": "Notebook Overview"
+  },
+  {
+    "objectID": "start.html#notebook-purpose-and-overview",
+    "href": "start.html#notebook-purpose-and-overview",
+    "title": "Notebook Overview",
+    "section": "Notebook Purpose and Overview",
+    "text": "Notebook Purpose and Overview"
+  },
+  {
+    "objectID": "index.html#visit-the-geoepi-website-for-more-information",
+    "href": "index.html#visit-the-geoepi-website-for-more-information",
+    "title": "GeoEpi Notebook",
+    "section": "Visit the GeoEpi website for more information",
+    "text": "Visit the GeoEpi website for more information\n\n\n\nGeoEpi website"
   }
 ]

@@ -1,1 +1,1 @@
-Sitemap: https://geoepi.github.io/Notebook/sitemap.xml
+Sitemap: https://github.com/geoepi/sitemap.xml

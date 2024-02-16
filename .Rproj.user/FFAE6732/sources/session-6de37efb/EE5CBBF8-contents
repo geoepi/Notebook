@@ -7,18 +7,33 @@ engine: knitr
 book:
   title: "GeoEpi Notebook"
   reader-mode: true
-
+  
+  sidebar:
+    background: "white"
+    logo: images/biogeo.png
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://geoepi.github.io/
+        text: "GeoEpi (home)"
+      - icon: circle
+        href: https://github.com/geoepi
+        text: "GeoEpi (GitHub)"
+    style: "docked"
+    search: true
+    collapse-level: 2
+    
   page-footer:
     left: |
-      STuff at left.
+      &copy; CC-1.0 2024-02-15
     right: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>.
-  cover-image: images/geoepi_logo_sm.png
-  favicon: images/globe.png
-  site-url: https://geoepi.github.io/Notebook/
+      Built with <a href="https://quarto.org/">Quarto</a>
+  cover-image: images/globe.png
+  site-url: https://github.com/geoepi
   repo-url: https://github.com/geoepi/Notebook
   repo-branch: main
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
   chapters:
     - index.qmd
     

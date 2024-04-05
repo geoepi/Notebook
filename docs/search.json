@@ -61,5 +61,47 @@
     "title": "GeoEpi Notebook",
     "section": "GeoEpi Research Group",
     "text": "GeoEpi Research Group\nThe GeoEpi Group investigates animal disease transmission and outbreak dynamics. Leveraging statistical and mathematical modeling, bioinformatics, and artificial intelligence, our work aims to bridge the molecular and landscape scales to reveal insights into the ecology and spatiotemporal dynamics of foreign, transboundary, emerging, and zoonotic animal diseases.\nThe GeoEpi Notebook is a resource designed for and by group members and collaborators engaged in geographical epidemiology and data science. Its purpose is to share and refine the best practices, standards, and guidelines essential for ensuring reproducible science across the domains of scientific computing, coding, data management, and modeling. Importantly, this notebook is envisioned as a living document—continually updated to reflect the latest insights, solutions, and efficiencies. It is not a compendium of rigid requirements but a collection of recommended approaches designed to enhance the quality and integrity of our work."
+  },
+  {
+    "objectID": "start.html#what-is-project-management",
+    "href": "start.html#what-is-project-management",
+    "title": "Project Management",
+    "section": "What is project management?",
+    "text": "What is project management?"
+  },
+  {
+    "objectID": "proj_management.html#what-is-project-management",
+    "href": "proj_management.html#what-is-project-management",
+    "title": "Project Management",
+    "section": "What is project management?",
+    "text": "What is project management?"
+  },
+  {
+    "objectID": "version_control.html",
+    "href": "version_control.html",
+    "title": "\n1  Version Control\n",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\n\n2 Stuff 1\n\n3 Stuff 2\n\n4 References"
+  },
+  {
+    "objectID": "version_control.html#version-control",
+    "href": "version_control.html#version-control",
+    "title": "1  Version Control",
+    "section": "Version Control",
+    "text": "Version Control\nVersion control systems are indispensable tools in modern software development and scientific research. They offer a robust framework for tracking, collaborating, and managing changes to code and documents, thereby enhancing productivity, transparency, and reproducibility.\n\n1. Track Changes and History\nVersion control systems record every modification to the code. If a mistake is made, we can turn back the clock and compare earlier versions of the code to help fix the mistake.\n\n\n2. Collaboration\nAllows multiple people to work simultaneously on a single project. Each developer works independently, and their changes can be merged into a shared version.\n\n\n3. Branching and Merging\nIt supports branching, which lets scientists diverge from the main codebase but continue to work in parallel without affecting the core code. This is particularly useful for experimenting with new features or ideas in a sandboxed environment. Merging then allows these divergent branches to be recombined into the main project line, facilitating the integration of new features or fixes.\n\n\n4. Reproducibility\nVersion control is critical for reproducibility in scientific research. It allows researchers to access specific versions of scripts or analyses that produce particular results, ensuring that findings can be verified and built upon in future work.\n\n\n5. Backup\nWhile not a substitute for a full backup strategy, version control systems provide a safety net against code loss. By maintaining comprehensive histories of project files, they can protect against hardware failure, accidental deletions, and other mishaps.\n\n\n6. Undo Mistakes\nA significant benefit of version control is the ability to revert files or entire projects to a previous state, undo mistakes, and recover lost data. It provides a safety net that allows developers and researchers to experiment without fearing irrevocably breaking their work.\n\n\n7. Track Who Made Changes\nIn collaborative projects, version control helps identify which team members made specific changes or introduced issues. This aspect is crucial for coordinating team efforts and for historical understanding of project evolution.\n\n\n8. Documentation\nVersion control is documentation that shows the development process and decision-making over time. This can be invaluable for new team members learning the project or for external reviewers or collaborators seeking to understand its progression."
+  },
+  {
+    "objectID": "version_control.html#what-are-git-and-github",
+    "href": "version_control.html#what-are-git-and-github",
+    "title": "1  Version Control",
+    "section": "What are Git and GitHub?",
+    "text": "What are Git and GitHub?\nGit is a version control system that enables users to track and manage changes to files and projects efficiently. GitHub is a hosting service that offers a web-based interface and additional tools for collaborative project management using Git software.\nGitHub has become the most popular platform for version control and collaborative software development. Its widespread adoption and utility in various fields, including scientific research, software engineering, and data science, can be attributed to several key features and benefits that make it an excellent choice for version control.\n\n1. User-Friendly Interface\nGitHub offers a web-based graphical interface that is intuitive for users at different levels of expertise. This accessibility lowers the barrier to entry for version control and makes it easier for users to manage repositories, track changes, and collaborate on projects without the need to master complex Git commands.\n\n\n2. Collaboration and Open Source\nGitHub is built to facilitate collaboration among researchers. It allows users to easily fork repositories, submit pull requests, and review code, making it an ideal platform for open-source science and collaborative team endeavors. ### 3. Integrated Issue Tracking GitHub provides integrated issue tracking that allows users to keep track of bugs, enhancements, and other project tasks. This feature seamlessly integrates with the codebase, enabling teams to manage and prioritize work efficiently alongside the development process.\n\n\n4. Continuous Integration and Deployment\nGitHub supports Continuous Integration and Continuous Deployment (CI/CD) processes through GitHub Actions. This allows developers to automate their build, test, and deployment workflows directly within their GitHub repositories, streamlining the development cycle and ensuring code integrity.\n\n\n5. Documentation\nWith GitHub, project documentation can be easily hosted alongside the codebase, for example, using markdown files and GitHub Pages.\n\n\n6. Security Features\nGitHub offers various security features to protect projects, including automated vulnerability scanning and alerts for repositories exposed to known security vulnerabilities in dependencies. This helps maintain the security integrity of projects hosted on the platform.\n\n\n7. Integration with External Tools\nGitHub integrates with many development tools and services, making it a versatile part of broader development ecosystems like Visual Studio Code, RStudio, and others\n\n\n8. Training and Resources\nGitHub offers a wealth of resources, including guides, tutorials, and community forums, that help users learn how to use Git and GitHub effectively.\n\n\n9. Team Organizations\nGitHub Organizations, like the GeoEpi GitHub Organization site, provide advanced options for team management, more granular access control, and enhanced security features, making them particularly useful for managing large, collaborative projects with multiple researchers."
+  },
+  {
+    "objectID": "github_elements.html#github-elements",
+    "href": "github_elements.html#github-elements",
+    "title": "2  GitHub Elements",
+    "section": "GitHub Elements",
+    "text": "GitHub Elements\nEssential steps in collaborative code development with GitHub\nElement 1: Introduction to GitHub and its Importance in Scientific Computing\n- Overview of GitHub\n- Importance of version control in software development\n- Role of GitHub in collaborative research and development\n- GitHub’s impact on reproducibility and transparency in science\nElement 2: Setting Up and Navigating GitHub\n- Creating a GitHub account\n- Overview of the GitHub interface\n- Key terminology (repository, branch, commit, pull request, merge, etc.)\nElement 3: Creating and Cloning Repositories\n- Introduction to repositories\n- How to create a new repository\n- Initializing a repository with README, .gitignore, and license\n- Cloning a repository to your local machine\nElement 4: Branches and Commits\n- The concept of branches in version control\n- Creating and switching between branches\n- Making changes and committing them to a branch\nElement 5: Pull Requests and Code Reviews\n- The purpose of pull requests in collaborative development\n- Creating a pull request\n- Reviewing pull requests from collaborators\n- Best practices for code reviews\nElement 6: Merging Pull Requests and Resolving Conflicts\n- The merge process explained\n- Handling merge conflicts\n- Strategies for successful merges"
   }
 ]

@@ -13,5 +13,14 @@
   },
   "start.qmd": {
     "start.html": "4e7d928c"
+  },
+  "proj_management.qmd": {
+    "proj_management.html": "aab6e4e6"
+  },
+  "version_control.qmd": {
+    "version_control.html": "34f4cd71"
+  },
+  "github_elements.qmd": {
+    "github_elements.html": "51ec3a49"
   }
 }

@@ -37,10 +37,10 @@ book:
   chapters:
     - index.qmd
     
-    - part: start.qmd
+    - part: proj_management.qmd
       chapters:
-        - intro.qmd
-        - summary.qmd
+        - version_control.qmd
+        - github_elements.qmd
         - references.qmd
   
 bibliography: references.bib

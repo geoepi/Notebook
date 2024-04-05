@@ -1,5 +1,5 @@
 ---
-title: "Notebook Overview"
+title: "Project Management"
 about:
   template: marquee
 format:
@@ -21,4 +21,4 @@ editor_options:
 ---
 
 
-## Notebook Purpose and Overview   
+## What is project management?   

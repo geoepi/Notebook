@@ -8,7 +8,7 @@
 
 <meta name="author" content="People’s names authors">
 
-<title>GeoEpi Notebook - Project Management</title>
+<title>GeoEpi Notebook - 1&nbsp; Version Control</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./github_elements.html" rel="next">
+<link href="./proj_management.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Project Management</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Version Control</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./start.html" class="sidebar-item-text sidebar-link active">Project Management</a>
+            <a href="./proj_management.html" class="sidebar-item-text sidebar-link">Project Management</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -122,12 +122,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./version_control.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Version Control</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  <a href="./github_elements.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">GitHub Elements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -150,15 +150,85 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Project Management</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Version Control</span></h1>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header> <main class="content" id="quarto-document-content">
-<section id="what-is-project-management" class="level2">
-<h2 data-anchor-id="what-is-project-management">What is project management?</h2>
+<section id="version-control" class="level2">
+<h2 data-anchor-id="version-control"><strong>Version Control</strong></h2>
+<p>Version control systems are indispensable tools in modern software development and scientific research. They offer a robust framework for tracking, collaborating, and managing changes to code and documents, thereby enhancing productivity, transparency, and reproducibility.</p>
+<section id="track-changes-and-history" class="level3">
+<h3 data-anchor-id="track-changes-and-history">1. Track Changes and History</h3>
+<p>Version control systems record every modification to the code. If a mistake is made, we can turn back the clock and compare earlier versions of the code to help fix the mistake.</p>
+</section>
+<section id="collaboration" class="level3">
+<h3 data-anchor-id="collaboration">2. Collaboration</h3>
+<p>Allows multiple people to work simultaneously on a single project. Each developer works independently, and their changes can be merged into a shared version.</p>
+</section>
+<section id="branching-and-merging" class="level3">
+<h3 data-anchor-id="branching-and-merging">3. Branching and Merging</h3>
+<p>It supports branching, which lets scientists diverge from the main codebase but continue to work in parallel without affecting the core code. This is particularly useful for experimenting with new features or ideas in a sandboxed environment. Merging then allows these divergent branches to be recombined into the main project line, facilitating the integration of new features or fixes.</p>
+</section>
+<section id="reproducibility" class="level3">
+<h3 data-anchor-id="reproducibility">4. Reproducibility</h3>
+<p>Version control is critical for reproducibility in scientific research. It allows researchers to access specific versions of scripts or analyses that produce particular results, ensuring that findings can be verified and built upon in future work.</p>
+</section>
+<section id="backup" class="level3">
+<h3 data-anchor-id="backup">5. Backup</h3>
+<p>While not a substitute for a full backup strategy, version control systems provide a safety net against code loss. By maintaining comprehensive histories of project files, they can protect against hardware failure, accidental deletions, and other mishaps.</p>
+</section>
+<section id="undo-mistakes" class="level3">
+<h3 data-anchor-id="undo-mistakes">6. Undo Mistakes</h3>
+<p>A significant benefit of version control is the ability to revert files or entire projects to a previous state, undo mistakes, and recover lost data. It provides a safety net that allows developers and researchers to experiment without fearing irrevocably breaking their work.</p>
+</section>
+<section id="track-who-made-changes" class="level3">
+<h3 data-anchor-id="track-who-made-changes">7. Track Who Made Changes</h3>
+<p>In collaborative projects, version control helps identify which team members made specific changes or introduced issues. This aspect is crucial for coordinating team efforts and for historical understanding of project evolution.</p>
+</section>
+<section id="documentation" class="level3">
+<h3 data-anchor-id="documentation">8. Documentation</h3>
+<p>Version control is documentation that shows the development process and decision-making over time. This can be invaluable for new team members learning the project or for external reviewers or collaborators seeking to understand its progression.</p>
+</section>
+</section>
+<section id="what-are-git-and-github" class="level2">
+<h2 data-anchor-id="what-are-git-and-github"><strong>What are Git and GitHub?</strong></h2>
+<p>Git is a version control system that enables users to track and manage changes to files and projects efficiently. GitHub is a hosting service that offers a web-based interface and additional tools for collaborative project management using Git software.</p>
+<p>GitHub has become the most popular platform for version control and collaborative software development. Its widespread adoption and utility in various fields, including scientific research, software engineering, and data science, can be attributed to several key features and benefits that make it an excellent choice for version control.</p>
+<section id="user-friendly-interface" class="level3">
+<h3 data-anchor-id="user-friendly-interface">1. User-Friendly Interface</h3>
+<p>GitHub offers a web-based graphical interface that is intuitive for users at different levels of expertise. This accessibility lowers the barrier to entry for version control and makes it easier for users to manage repositories, track changes, and collaborate on projects without the need to master complex Git commands.</p>
+</section>
+<section id="collaboration-and-open-source" class="level3">
+<h3 data-anchor-id="collaboration-and-open-source">2. Collaboration and Open Source</h3>
+<p>GitHub is built to facilitate collaboration among researchers. It allows users to easily fork repositories, submit pull requests, and review code, making it an ideal platform for open-source science and collaborative team endeavors. ### 3. Integrated Issue Tracking GitHub provides integrated issue tracking that allows users to keep track of bugs, enhancements, and other project tasks. This feature seamlessly integrates with the codebase, enabling teams to manage and prioritize work efficiently alongside the development process.</p>
+</section>
+<section id="continuous-integration-and-deployment" class="level3">
+<h3 data-anchor-id="continuous-integration-and-deployment">4. Continuous Integration and Deployment</h3>
+<p>GitHub supports Continuous Integration and Continuous Deployment (CI/CD) processes through GitHub Actions. This allows developers to automate their build, test, and deployment workflows directly within their GitHub repositories, streamlining the development cycle and ensuring code integrity.</p>
+</section>
+<section id="documentation-1" class="level3">
+<h3 data-anchor-id="documentation-1">5. Documentation</h3>
+<p>With GitHub, project documentation can be easily hosted alongside the codebase, for example, using markdown files and GitHub Pages.</p>
+</section>
+<section id="security-features" class="level3">
+<h3 data-anchor-id="security-features">6. Security Features</h3>
+<p>GitHub offers various security features to protect projects, including automated vulnerability scanning and alerts for repositories exposed to known security vulnerabilities in dependencies. This helps maintain the security integrity of projects hosted on the platform.</p>
+</section>
+<section id="integration-with-external-tools" class="level3">
+<h3 data-anchor-id="integration-with-external-tools">7. Integration with External Tools</h3>
+<p>GitHub integrates with many development tools and services, making it a versatile part of broader development ecosystems like Visual Studio Code, RStudio, and others</p>
+</section>
+<section id="training-and-resources" class="level3">
+<h3 data-anchor-id="training-and-resources">8. Training and Resources</h3>
+<p>GitHub offers a wealth of resources, including guides, tutorials, and community forums, that help users learn how to use Git and GitHub effectively.</p>
+</section>
+<section id="team-organizations" class="level3">
+<h3 data-anchor-id="team-organizations">9. Team Organizations</h3>
+<p>GitHub Organizations, like the GeoEpi GitHub Organization site, provide advanced options for team management, more granular access control, and enhanced security features, making them particularly useful for managing large, collaborative projects with multiple researchers.</p>
 
 
+</section>
 </section>
 </main> 
   </div>
@@ -292,13 +362,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">GeoEpi Research Group</span>
+      <a href="./proj_management.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Project Management</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./github_elements.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">GitHub Elements</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -20,7 +20,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-## **GitHub Elements**
+# **GitHub Elements**
 
 Essential steps in collaborative code development with GitHub
 
@@ -53,7 +53,7 @@ Essential steps in collaborative code development with GitHub
 - Best practices for code reviews  
   
 **Element 6: Merging Pull Requests and Resolving Conflicts**  
-- The merge process explained  
+- The merge process
 - Handling merge conflicts  
 - Strategies for successful merges  
   

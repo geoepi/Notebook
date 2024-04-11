@@ -29,7 +29,7 @@ book:
       &copy; CC-1.0 2024-02-15
     right: |
       Built with <a href="https://quarto.org/">Quarto</a>
-  cover-image: images/globe.png
+  cover-image: images/grid_globe.png
   site-url: https://github.com/geoepi
   repo-url: https://github.com/geoepi/Notebook
   repo-branch: main

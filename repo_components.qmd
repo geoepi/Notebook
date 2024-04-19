@@ -1,5 +1,5 @@
 ---
-title: "Repository Components"
+title: "GH Repo Components"
 about:
   template: marquee
 format:
@@ -22,23 +22,25 @@ editor_options:
 
 # **Essential GitHub Repository Components**
 
-Core structure, files, directories suggested for a GitHub repository, aka a *Repo* 
+Core structure, files, directories suggested for a GitHub repository, aka a *Repo*
 
-### 1. **Private or Public?**  
-  - OK to keep private while under development, but must ensure that all collaborators have access.    
-  - Ultimately, everything should be public, practice project management and documentation with this in mind.  
-  
-### 2. **Strongly Suggested (mandatory?)**  
-  - A *README.md* to describe contents and purpose.
-  - A *.gitignore* to indicate which files on your machine should not be copied to GitHub    
-  - A *secrets.yaml* to keep copies of passwords for API accounts and collaborative repos when you're not the admin.  Make sure the secrets file is included in the *.gitignore*!
-  - A */local* or */private* directory for un-shared data and local, preliminary work.  Make sure the secrets file is included in the *.gitignore*! 
-  
-### 32. **Suggested** 
-  - license
-  - A *tests* directory
-  - A dedicated directory for coded functions, (e.g., a */R* or similar)
-  - A *docs/* directory for templates, webpage htmls, etc. 
-  - A *src/* directory for source code (if developing a package or library)  
-  - A *vignettes/* directory for examples, scripts, and demonstration of code in the functions directory .
-  
+### 1. **Private or Public?**
+
+-   OK to keep private while under development, but must ensure that all collaborators have access.\
+-   Ultimately, everything should be public, practice project management and documentation with this in mind.
+
+### 2. **Strongly Suggested (mandatory?)**
+
+-   A *README.md* to describe contents and purpose.
+-   A *.gitignore* to indicate which files on your machine should not be copied to GitHub\
+-   A *secrets.yaml* to keep copies of passwords for API accounts and collaborative repos when you're not the admin. Make sure the secrets file is included in the *.gitignore*!
+-   A */local* or */private* directory for un-shared data and local, preliminary work. Make sure the secrets file is included in the *.gitignore*!
+
+### 32. **Suggested**
+
+-   license
+-   A *tests* directory
+-   A dedicated directory for coded functions, (e.g., a */R* or similar)
+-   A *docs/* directory for templates, webpage htmls, etc.
+-   A *src/* directory for source code (if developing a package or library)\
+-   A *vignettes/* directory for examples, scripts, and demonstration of code in the functions directory .

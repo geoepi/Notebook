@@ -25,5 +25,11 @@
   },
   "repo_components.qmd": {
     "repo_components.html": "d9242b37"
+  },
+  "openscifw.qmd": {
+    "openscifw.html": "28bdb3c6"
+  },
+  "overleaf.qmd": {
+    "overleaf.html": "30d90bfa"
   }
 }

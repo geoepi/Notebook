@@ -21,9 +21,5 @@ editor_options:
 ---
 
 # **LaTeX and Overleaf**
-  
-Manuscript drafting and documentation using LaTeX, particularly through the collaborative platform [Overleaf](https://www.overleaf.com/), is the best choice for crafting scientific manuscripts and technical documents that require mathematical notation and complex formatting. Overleaf facilitates seamless collaboration, allowing multiple authors to edit documents simultaneously and track changes efficiently with integrated version control. Moreover, Overleaf's compatibility with GitHub enhances workflow integration, enabling code and document synchronization, while its support for reference management software like [Zotero](https://www.zotero.org/) simplifies article and citation management.  
-   
-  
 
-
+Manuscript drafting and documentation using LaTeX, particularly through the collaborative platform [Overleaf](https://www.overleaf.com/), is the best choice for crafting scientific manuscripts and technical documents that require mathematical notation and complex formatting. Overleaf facilitates seamless collaboration, allowing multiple authors to edit documents simultaneously and track changes efficiently with integrated version control. Moreover, Overleaf's compatibility with GitHub enhances workflow integration, enabling code and document synchronization, while its support for reference management software like [Zotero](https://www.zotero.org/) simplifies article and citation management.

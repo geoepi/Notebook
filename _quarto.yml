@@ -42,7 +42,7 @@ book:
         - version_control.qmd
         - github_elements.qmd
         - repo_components.qmd
-        - openscifw.qmd
+        - data_store.qmd
         - overleaf.qmd
     - references.qmd
   

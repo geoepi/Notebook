@@ -21,9 +21,9 @@ editor_options:
 ---
 
 # **GitHub Elements**
-
-Essential steps in collaborative code development with GitHub
-
+  
+The below outline served as an agenda for group GitHub training conducted in early 2024.  It can be considered a checklist for GitHub tasks that everyone should be able to perform.  
+   
 **Element 1: Introduction to GitHub and its Importance in Scientific Computing**\
 - Overview of GitHub\
 - Importance of version control in software development\

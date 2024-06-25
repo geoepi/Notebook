@@ -22,4 +22,4 @@ editor_options:
 
 # **Open Science Framework (OSF)**
 
-Data storage and management using the [Open Science Framework (OSF)](https://osf.io/)...
+Data storage and management using the [Open Science Framework (OSF)](https://osf.io/).  

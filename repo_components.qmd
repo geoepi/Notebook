@@ -22,7 +22,8 @@ editor_options:
 
 # **Essential GitHub Repository Components**
 
-Core structure, files, directories suggested for a GitHub repository, aka a *Repo*
+Core structure, files, directories suggested for a GitHub repository, aka a *Repo*.  The below text describes items that should be included in project repos.  These are general suggestions, individual projects will have different needs, and different project leads will have different preferences.  
+  
 
 ### 1. **Private or Public?**
 
@@ -31,16 +32,16 @@ Core structure, files, directories suggested for a GitHub repository, aka a *Rep
 
 ### 2. **Strongly Suggested (mandatory?)**
 
--   A *README.md* to describe contents and purpose.
--   A *.gitignore* to indicate which files on your machine should not be copied to GitHub\
--   A *secrets.yaml* to keep copies of passwords for API accounts and collaborative repos when you're not the admin. Make sure the secrets file is included in the *.gitignore*!
--   A */local* or */private* directory for un-shared data and local, preliminary work. Make sure the secrets file is included in the *.gitignore*!
+-   A `README.md` to describe contents and purpose.
+-   A `.gitignore` to indicate which files on your machine should not be copied to GitHub\
+-   A `secrets.yaml` to keep copies of passwords for API accounts and collaborative repos when you're not the admin. Make sure the secrets file is included in the `.gitignore`!
+-   A `/local` or `/private` directory for un-shared data and local, preliminary work. Make sure the secrets file is included in the `.gitignore`!
 
-### 32. **Suggested**
+### 3. **Suggested**
 
 -   license
--   A *tests* directory
--   A dedicated directory for coded functions, (e.g., a */R* or similar)
--   A *docs/* directory for templates, webpage htmls, etc.
--   A *src/* directory for source code (if developing a package or library)\
--   A *vignettes/* directory for examples, scripts, and demonstration of code in the functions directory .
+-   A `tests/` directory
+-   A dedicated directory for coded functions, (e.g., a `/R` or similar)
+-   A `docs/` directory for templates, webpage htmls, etc.
+-   A `src/` directory for source code (if developing a package or library)\
+-   A `vignettes/` or `demos/` directory for examples, scripts, and demonstration of code in the functions directory.

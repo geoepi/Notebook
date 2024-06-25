@@ -8,7 +8,7 @@
 
 <meta name="author" content="People’s names authors">
 
-<title>GeoEpi Notebook - 1&nbsp; Version Control</title>
+<title>GeoEpi Notebook - 4&nbsp; Data Storage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./github_elements.html" rel="next">
-<link href="./proj_management.html" rel="prev">
+<link href="./overleaf.html" rel="next">
+<link href="./repo_components.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Version Control</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Storage</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./version_control.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Version Control</span></a>
+  <a href="./version_control.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Version Control</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_store.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Storage</span></a>
+  <a href="./data_store.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Storage</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -165,85 +165,42 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Version Control</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Storage</span></h1>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header> <main class="content" id="quarto-document-content">
-<section id="version-control" class="level1">
-<h1><strong>Version Control</strong></h1>
-<p>Version control systems are indispensable tools in modern software development and scientific research. They offer a robust framework for tracking, collaborating, and managing changes to code and documents, thereby enhancing productivity, transparency, and reproducibility.</p>
-<section id="track-changes-and-history" class="level3">
-<h3 data-anchor-id="track-changes-and-history">1. Track Changes and History</h3>
-<p>Version control systems record every modification to the code. If a mistake is made, we can turn back the clock and compare earlier versions of the code to help fix the mistake.</p>
+<section id="where-should-data-be-saved" class="level1">
+<h1><strong>Where should data be saved?</strong></h1>
+<p>In the course of a research project, data storage requirements evolve significantly. During the initial phases, especially in early model development, data must be readily accessible across various computing environments—from individual researcher laptops to high-performance computing systems—ensuring that all team members can access necessary information seamlessly. As projects approach completion, the focus shifts towards making select datasets publicly available, ensuring proper archival, and adhering to open science principles. Additionally, storage solutions must account for the data composition, such as personally identifiable information (PII) or proprietary content, which might dictate more stringent access and security measures. Furthermore, data shared by collaborators might come with restrictions that limit access exclusively to specific project members, adding another layer of complexity to data management.</p>
+<p>Below are some preferred options to consider.</p>
 </section>
-<section id="collaboration" class="level3">
-<h3 data-anchor-id="collaboration">2. Collaboration</h3>
-<p>Allows multiple people to work simultaneously on a single project. Each developer works independently, and their changes can be merged into a shared version.</p>
+<section id="scinet" class="level1">
+<h1><strong>SCINet</strong></h1>
+<p>During active model development, the <a href="https://scinet.usda.gov/">Agricultural Research Service’s <strong>SCINet</strong></a> is likely the best option for storage and group access to <em>big</em> data. If the project only requires tens of megabytes, then several other options may work equally as well, but once the 100mb threshold is reached, SCINet may be the best choice.</p>
+<p>If you’re a member of the GeoEpi group, a storage allotment has probably already been reserved for your project. If storage hasn’t already been set aside for a project, more space is needed, extra security is needed, or additional project members need to be given access, discuss this with the project’s lead.</p>
+<p>Once the need for SCINet storage has been identified, consider the optimal place to store the data:<br>
+- <a href="https://scinet.usda.gov/about/compute">Atlas or Ceres Clusters</a>: Project directories can be used for short term storage of preprocessed data that’s ready to be analyzed.<br>
+- <a href="https://scinet.usda.gov/guides/data/storage#project-directories">90DayData storage</a>: For short-term storage of large data. Best for really large data (remote sensing, land cover, etc), prior to processing. Will automatically be wiped after 90days.<br>
+- <a href="https://scinet.usda.gov/guides/data/data-management">Juno</a>: Long-term Storage of multi-petabyte data at the National Agricultural Library in Maryland.</p>
+<p><strong>Where NOT to store data on SCINet</strong>: The home directory of your individual user account. Your individual account only provides about 10gb of storage. This <em>should be</em> adequate for configuration files and custom software not found on the shared systems, but not anything more.</p>
 </section>
-<section id="branching-and-merging" class="level3">
-<h3 data-anchor-id="branching-and-merging">3. Branching and Merging</h3>
-<p>It supports branching, which lets scientists diverge from the main codebase but continue to work in parallel without affecting the core code. This is particularly useful for experimenting with new features or ideas in a sandboxed environment. Merging then allows these divergent branches to be recombined into the main project line, facilitating the integration of new features or fixes.</p>
+<section id="open-science-framework-osf" class="level1">
+<h1><strong>Open Science Framework (OSF)</strong></h1>
+<p>Data storage and management using the <a href="https://osf.io/hf8t2/">Open Science Framework (OSF)</a> may be a good option. OSF is free for individual file sizes up to 80gb, uses duel authentication, and provides numerous security options for controlling access among project team members and the public. OSF data can be accessed remotely using an API, which may make it more accessible for project members that don’t have, or wouldn’t otherwise need a SCINet account. The OSF interface may also be a little more intuitive to project members that aren’t trained in data science. It is important to keep in mind that not all project members are data scientists, some are veterinarians, bench microbiologists, virologists, entomologists, field epidemiologist, wildlife managers, and similar experts don’t routinely use code or command line tools. It’s often necessary to share or receive data or metadata with these team members, OSF may be simpler for them too navigate than SCINet.</p>
 </section>
-<section id="reproducibility" class="level3">
-<h3 data-anchor-id="reproducibility">4. Reproducibility</h3>
-<p>Version control is critical for reproducibility in scientific research. It allows researchers to access specific versions of scripts or analyses that produce particular results, ensuring that findings can be verified and built upon in future work.</p>
+<section id="data-archiving" class="level1">
+<h1><strong>Data Archiving</strong></h1>
+<p>With very few and rare exceptions, all projects that are funded through the USDA, or include a USDA employee as part of the project team, will need to archive data at some point to provide long term public access. At a minimum, this means data will be stored in a permanent and publicly accessible location and be assigned a DOI (Digital Object Identifier) that links to an online document that records deposition of the data and includes a permanent web address (URL) to locate it.</p>
+<p>In addition to commonly used services, like <a href="https://zenodo.org/">Zenodo</a>, and data-type specific storage providers (e.g., <a href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank</a> for genetic data), there are a couple other options to consider.<br>
+- <a href="https://www.nal.usda.gov/services/agdatacommons">Ag Data Commons</a> at the National Agricultural Library which serves as a repository for public access to data produced during research funded or co-funded by the USDA.<br>
+- <a href="https://osf.io/hf8t2/">Open Science Framework (OSF)</a> offers DOI generation and archiving. Although OSF is a relative newcomer as an archiving service, the ability to archive as an addition to the other tools services provides for project management make it somewhat of a one stop shop for the entire research lifecycle.</p>
 </section>
-<section id="backup" class="level3">
-<h3 data-anchor-id="backup">5. Backup</h3>
-<p>While not a substitute for a full backup strategy, version control systems provide a safety net against code loss. By maintaining comprehensive histories of project files, they can protect against hardware failure, accidental deletions, and other mishaps.</p>
-</section>
-<section id="undo-mistakes" class="level3">
-<h3 data-anchor-id="undo-mistakes">6. Undo Mistakes</h3>
-<p>A significant benefit of version control is the ability to revert files or entire projects to a previous state, undo mistakes, and recover lost data. It provides a safety net that allows developers and researchers to experiment without fearing irrevocably breaking their work.</p>
-</section>
-<section id="track-who-made-changes" class="level3">
-<h3 data-anchor-id="track-who-made-changes">7. Track Who Made Changes</h3>
-<p>In collaborative projects, version control helps identify which team members made specific changes or introduced issues. This aspect is crucial for coordinating team efforts and for historical understanding of project evolution.</p>
-</section>
-<section id="documentation" class="level3">
-<h3 data-anchor-id="documentation">8. Documentation</h3>
-<p>Version control is documentation that shows the development process and decision-making over time. This can be invaluable for new team members learning the project or for external reviewers or collaborators seeking to understand its progression.</p>
-</section>
-</section>
-<section id="what-are-git-and-github" class="level1">
-<h1><strong>What are Git and GitHub?</strong></h1>
-<p>Git is a version control system that enables users to track and manage changes to files and projects efficiently. GitHub is a hosting service that offers a web-based interface and additional tools for collaborative project management using Git software.</p>
-<p>GitHub has become the most popular platform for version control and collaborative software development. Its widespread adoption and utility in various fields, including scientific research, software engineering, and data science, can be attributed to several key features and benefits that make it an excellent choice for version control.</p>
-<section id="user-friendly-interface" class="level3">
-<h3 data-anchor-id="user-friendly-interface">1. User-Friendly Interface</h3>
-<p>GitHub offers a web-based graphical interface that is intuitive for users at different levels of expertise. This accessibility lowers the barrier to entry for version control and makes it easier for users to manage repositories, track changes, and collaborate on projects without the need to master complex Git commands.</p>
-</section>
-<section id="collaboration-and-open-source" class="level3">
-<h3 data-anchor-id="collaboration-and-open-source">2. Collaboration and Open Source</h3>
-<p>GitHub is built to facilitate collaboration among researchers. It allows users to easily fork repositories, submit pull requests, and review code, making it an ideal platform for open-source science and collaborative team endeavors. ### 3. Integrated Issue Tracking GitHub provides integrated issue tracking that allows users to keep track of bugs, enhancements, and other project tasks. This feature seamlessly integrates with the codebase, enabling teams to manage and prioritize work efficiently alongside the development process.</p>
-</section>
-<section id="continuous-integration-and-deployment" class="level3">
-<h3 data-anchor-id="continuous-integration-and-deployment">4. Continuous Integration and Deployment</h3>
-<p>GitHub supports Continuous Integration and Continuous Deployment (CI/CD) processes through GitHub Actions. This allows developers to automate their build, test, and deployment workflows directly within their GitHub repositories, streamlining the development cycle and ensuring code integrity.</p>
-</section>
-<section id="documentation-1" class="level3">
-<h3 data-anchor-id="documentation-1">5. Documentation</h3>
-<p>With GitHub, project documentation can be easily hosted alongside the codebase, for example, using markdown files and GitHub Pages.</p>
-</section>
-<section id="security-features" class="level3">
-<h3 data-anchor-id="security-features">6. Security Features</h3>
-<p>GitHub offers various security features to protect projects, including automated vulnerability scanning and alerts for repositories exposed to known security vulnerabilities in dependencies. This helps maintain the security integrity of projects hosted on the platform.</p>
-</section>
-<section id="integration-with-external-tools" class="level3">
-<h3 data-anchor-id="integration-with-external-tools">7. Integration with External Tools</h3>
-<p>GitHub integrates with many development tools and services, making it a versatile part of broader development ecosystems like Visual Studio Code, RStudio, and others</p>
-</section>
-<section id="training-and-resources" class="level3">
-<h3 data-anchor-id="training-and-resources">8. Training and Resources</h3>
-<p>GitHub offers a wealth of resources, including guides, tutorials, and community forums, that help users learn how to use Git and GitHub effectively.</p>
-</section>
-<section id="team-organizations" class="level3">
-<h3 data-anchor-id="team-organizations">9. Team Organizations</h3>
-<p>GitHub Organizations, like the GeoEpi GitHub Organization site, provide advanced options for team management, more granular access control, and enhanced security features, making them particularly useful for managing large, collaborative projects with multiple researchers.</p>
+<section id="what-about-github" class="level1">
+<h1><strong>What about GitHub</strong>?</h1>
+<p>Although GitHub is a great service for managing a codebase, and even integrates with <a href="https://zenodo.org/">Zenodo</a> for archiving, it is not intended or appropriate for, data storage. Observation data, data other than code or small data used in vignettes or demos, should be stored elsewhere.</p>
 
 
-</section>
 </section>
 </main> 
   </div>
@@ -377,13 +334,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./proj_management.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Project Management</span>
+      <a href="./repo_components.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">GH Repo Components</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./github_elements.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">GitHub Elements</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./overleaf.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">LaTeX and Overleaf</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -44,6 +44,7 @@ book:
         - repo_components.qmd
         - data_store.qmd
         - overleaf.qmd
+        - zotero.qmd
     - references.qmd
   
 bibliography: references.bib

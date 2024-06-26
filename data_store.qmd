@@ -19,45 +19,38 @@ format:
 editor_options: 
   chunk_output_type: console
 ---
-  
+
 # **Where should data be saved?**
-  
-In the course of a research project, data storage requirements evolve significantly. During the initial phases, especially in early model development, data must be readily accessible across various computing environments—from individual researcher laptops to high-performance computing systems—ensuring that all team members can access necessary information seamlessly. As projects approach completion, the focus shifts towards making select datasets publicly available, ensuring proper archival, and adhering to open science principles. Additionally, storage solutions must account for the data composition, such as personally identifiable information (PII) or proprietary content, which might dictate more stringent access and security measures. Furthermore, data shared by collaborators might come with restrictions that limit access exclusively to specific project members, adding another layer of complexity to data management.    
-    
-Below are some preferred options to consider.  
-  
-# **SCINet**  
-During active model development, the [Agricultural Research Service's **SCINet**](https://scinet.usda.gov/) is likely the best option for storage and group access to *big* data.  If the project only requires tens of megabytes, then several other options may work equally as well, but once the 100mb threshold is reached, SCINet may be the best choice.  
-  
-If you're a member of the GeoEpi group, a storage allotment has probably already been reserved for your project.  If storage hasn't already been set aside for a project, more space is needed, extra security is needed, or additional project members need to be given access, discuss this with the project's lead.  
-  
-Once the need for SCINet storage has been identified, consider the optimal place to store the data:   
--   [Atlas or Ceres Clusters](https://scinet.usda.gov/about/compute): Project directories can be used for short term storage of preprocessed data that's ready to be analyzed.   
--   [90DayData storage](https://scinet.usda.gov/guides/data/storage#project-directories): For short-term storage of large data.  Best for really large data (remote sensing, land cover, etc), prior to processing.  Will automatically be wiped after 90days.  
--   [Juno](https://scinet.usda.gov/guides/data/data-management): Long-term Storage of multi-petabyte data at the National Agricultural Library in Maryland.  
-  
-**Where NOT to store data on SCINet**: The home directory of your individual user account.  Your individual account only provides about 10gb of storage.  This *should be* adequate for configuration files and custom software not found on the shared systems, but not anything more.   
-   
-  
+
+In the course of a research project, data storage requirements evolve significantly. During the initial phases, especially in early model development, data must be readily accessible across various computing environments—from individual researcher laptops to high-performance computing systems—ensuring that all team members can access necessary information seamlessly. As projects approach completion, the focus shifts towards making select datasets publicly available, ensuring proper archival, and adhering to open science principles. Additionally, storage solutions must account for the data composition, such as personally identifiable information (PII) or proprietary content, which might dictate more stringent access and security measures. Furthermore, data shared by collaborators might come with restrictions that limit access exclusively to specific project members, adding another layer of complexity to data management.
+
+Below are some preferred options to consider.
+
+# **SCINet**
+
+During active model development, the [Agricultural Research Service's **SCINet**](https://scinet.usda.gov/) is likely the best option for storage and group access to *big* data. If the project only requires tens of megabytes, then several other options may work equally as well, but once the 100mb threshold is reached, SCINet may be the best choice.
+
+If you're a member of the GeoEpi group, a storage allotment has probably already been reserved for your project. If storage hasn't already been set aside for a project, more space is needed, extra security is needed, or additional project members need to be given access, discuss this with the project's lead.
+
+Once the need for SCINet storage has been identified, consider the optimal place to store the data:\
+- [Atlas or Ceres Clusters](https://scinet.usda.gov/about/compute): Project directories can be used for short term storage of preprocessed data that's ready to be analyzed.\
+- [90DayData storage](https://scinet.usda.gov/guides/data/storage#project-directories): For short-term storage of large data. Best for really large data (remote sensing, land cover, etc), prior to processing. Will automatically be wiped after 90days.\
+- [Juno](https://scinet.usda.gov/guides/data/data-management): Long-term Storage of multi-petabyte data at the National Agricultural Library in Maryland.
+
+**Where NOT to store data on SCINet**: The home directory of your individual user account. Your individual account only provides about 10gb of storage. This *should be* adequate for configuration files and custom software not found on the shared systems, but not anything more.
+
 # **Open Science Framework (OSF)**
 
-Data storage and management using the [Open Science Framework (OSF)](https://osf.io/hf8t2/) may be a good option.  OSF is free for individual file sizes up to 80gb, uses duel authentication, and provides numerous security options for controlling access among project team members and the public.  OSF data can be accessed remotely using an API, which may make it more accessible for project members that don't have, or wouldn't otherwise need a SCINet account.  The OSF interface may also be a little more intuitive to project members that aren't trained in data science.  It is important to keep in mind that not all project members are data scientists, some are veterinarians, bench microbiologists, virologists, entomologists, field epidemiologist, wildlife managers, and similar experts don't routinely use code or command line tools.  It's often necessary to share or receive data or metadata with these team members, OSF may be simpler for them too navigate than SCINet.  
-  
-# **Data Archiving**  
-With very few and rare exceptions, all projects that are funded through the USDA, or include a USDA employee as part of the project team, will need to archive data at some point to provide long term public access.  At a minimum, this means data will be stored in a permanent and publicly accessible location and be assigned a DOI (Digital Object Identifier) that links to an online document that records deposition of the data and includes a permanent web address (URL) to locate it.   
-  
-In addition to commonly used services, like [Zenodo](https://zenodo.org/), and data-type specific storage providers (e.g., [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) for genetic data), there are a couple other options to consider.      
--   [Ag Data Commons](https://www.nal.usda.gov/services/agdatacommons) at the National Agricultural Library which serves as a repository for public access to data produced during research funded or co-funded by the USDA.  
--   [Open Science Framework (OSF)](https://osf.io/hf8t2/) offers DOI generation and archiving.  Although OSF is a relative newcomer as an archiving service, the ability to archive as an addition to the other tools services provides for project management make it somewhat of a one stop shop for the entire research lifecycle. 
-  
-# **What about GitHub**?  
-Although GitHub is a great service for managing a codebase, and even integrates with [Zenodo](https://zenodo.org/) for archiving, it is not intended or appropriate for, data storage.  Observation data, data other than code or small data used in vignettes or demos, should be stored elsewhere.  
-   
-   
-   
-  
-  
-  
-  
-   
-   
+Data storage and management using the [Open Science Framework (OSF)](https://osf.io/hf8t2/) may be a good option. OSF is free for individual file sizes up to 80gb, uses duel authentication, and provides numerous security options for controlling access among project team members and the public. OSF data can be accessed remotely using an API, which may make it more accessible for project members that don't have, or wouldn't otherwise need a SCINet account. The OSF interface may also be a little more intuitive to project members that aren't trained in data science. It is important to keep in mind that not all project members are data scientists, some are veterinarians, bench microbiologists, virologists, entomologists, field epidemiologist, wildlife managers, and similar experts don't routinely use code or command line tools. It's often necessary to share or receive data or metadata with these team members, OSF may be simpler for them too navigate than SCINet.
+
+# **Data Archiving**
+
+With very few and rare exceptions, all projects that are funded through the USDA, or include a USDA employee as part of the project team, will need to archive data at some point to provide long term public access. At a minimum, this means data will be stored in a permanent and publicly accessible location and be assigned a DOI (Digital Object Identifier) that links to an online document that records deposition of the data and includes a permanent web address (URL) to locate it.
+
+In addition to commonly used services, like [Zenodo](https://zenodo.org/), and data-type specific storage providers (e.g., [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) for genetic data), there are a couple other options to consider.\
+- [Ag Data Commons](https://www.nal.usda.gov/services/agdatacommons) at the National Agricultural Library which serves as a repository for public access to data produced during research funded or co-funded by the USDA.\
+- [Open Science Framework (OSF)](https://osf.io/hf8t2/) offers DOI generation and archiving. Although OSF is a relative newcomer as an archiving service, the ability to archive as an addition to the other tools services provides for project management make it somewhat of a one stop shop for the entire research lifecycle.
+
+# **What about GitHub**?
+
+Although GitHub is a great service for managing a codebase, and even integrates with [Zenodo](https://zenodo.org/) for archiving, it is not intended or appropriate for, data storage. Observation data, data other than code or small data used in vignettes or demos, should be stored elsewhere.

@@ -20,7 +20,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-# **Group Zotero Libraries**  
+# **Group Libraries**  
+The group has started to compile shared literature for focal disease systems, technical methods, and other topics relevant to our research.  Below is a list of these libraries.  
+  
+Note that the links below direct to the public facing versions of the libraries that only allow for viewing document descriptions.  To access the documents themselves (PDFs, Word Docs, etc), modify existing records, or to contribute additional publications you will need to request access using a [Zotero account](https://www.zotero.org/user/register).  
+  
 -   [Foot and Mouth Disease (FMD)](https://www.zotero.org/groups/5578636/geoepi_fmd)    
 -   [Feral Swine](https://www.zotero.org/groups/5578642/geoepi_feral_swine) 
 -   [Flavivirus](https://www.zotero.org/groups/5160301/geoepi_flavivirus)  

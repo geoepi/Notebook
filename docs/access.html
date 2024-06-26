@@ -8,7 +8,7 @@
 
 <meta name="author" content="People’s names authors">
 
-<title>GeoEpi Notebook - 4&nbsp; GH Repo Components</title>
+<title>GeoEpi Notebook - 1&nbsp; Resource Access</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./data_store.html" rel="next">
-<link href="./github_elements.html" rel="prev">
+<link href="./version_control.html" rel="next">
+<link href="./proj_management.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">GH Repo Components</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Resource Access</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./access.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Resource Access</span></a>
+  <a href="./access.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Resource Access</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./repo_components.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">GH Repo Components</span></a>
+  <a href="./repo_components.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">GH Repo Components</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -175,43 +175,29 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">GH Repo Components</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Resource Access</span></h1>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header> <main class="content" id="quarto-document-content">
-<section id="essential-github-repository-components" class="level1">
-<h1><strong>Essential GitHub Repository Components</strong></h1>
-<p>Core structure, files, directories suggested for a GitHub repository, aka a <em>Repo</em>. The below text describes items that should be included in project repos. These are general suggestions, individual projects will have different needs, and different project leads will have different preferences.</p>
-<section id="private-or-public" class="level3">
-<h3 data-anchor-id="private-or-public">1. <strong>Private or Public?</strong></h3>
-<ul>
-<li>OK to keep private while under development, but must ensure that all collaborators have access.<br>
-</li>
-<li>Ultimately, everything should be public, practice project management and documentation with this in mind.</li>
-</ul>
+<section id="accounts-and-permissions" class="level1">
+<h1><strong>Accounts and Permissions</strong></h1>
+<p>Accessing workflows, supporting information, and shared resources described in the <a href="https://geoepi.github.io/Notebook/proj_management.html"><strong>Project Management</strong> section</a> may require creating individual user accounts on several platforms. Although the needs for individual projects will vary, it is suggested to create accounts to access the services listed below.</p>
+<section id="github" class="level3">
+<h3 data-anchor-id="github">1. GitHub</h3>
+<p>If you don’t have a GitHub account, please <a href="https://github.com">create one</a>. Once you have a GitHub account, ensure that your GitHub username has been shared with project PIs and collaborators to be authorized access to repositories, the <a href="https://github.com/geoepi">GeoEpi team site</a>, and possibly the <a href="https://github.com/USDA-REE-ARS">USDA ARS Enterprise solution</a>.</p>
 </section>
-<section id="strongly-suggested-mandatory" class="level3">
-<h3 data-anchor-id="strongly-suggested-mandatory">2. <strong>Strongly Suggested (mandatory?)</strong></h3>
-<ul>
-<li>A <code>README.md</code> to describe contents and purpose.</li>
-<li>A <code>.gitignore</code> to indicate which files on your machine should not be copied to GitHub<br>
-</li>
-<li>A <code>secrets.yaml</code> to keep copies of passwords for API accounts and collaborative repos when you’re not the admin. Make sure the secrets file is included in the <code>.gitignore</code>!</li>
-<li>A <code>/local</code> or <code>/private</code> directory for un-shared data and local, preliminary work. Make sure the secrets file is included in the <code>.gitignore</code>!</li>
-</ul>
+<section id="overleaf" class="level3">
+<h3 data-anchor-id="overleaf">2. Overleaf</h3>
+<p><a href="https://overleaf.com">Overleaf</a> is a collaborative online LaTeX editor to help write, edit, and publish scientific and technical documents.</p>
 </section>
-<section id="suggested" class="level3">
-<h3 data-anchor-id="suggested">3. <strong>Suggested</strong></h3>
-<ul>
-<li>license</li>
-<li>A <code>tests/</code> directory</li>
-<li>A dedicated directory for coded functions, (e.g., a <code>/R</code> or similar)</li>
-<li>A <code>docs/</code> directory for templates, webpage htmls, etc.</li>
-<li>A <code>src/</code> directory for source code (if developing a package or library)<br>
-</li>
-<li>A <code>vignettes/</code> or <code>demos/</code> directory for examples, scripts, and demonstration of code in the functions directory.</li>
-</ul>
+<section id="open-science-framework-osf" class="level3">
+<h3 data-anchor-id="open-science-framework-osf">3. Open Science Framework (OSF)</h3>
+<p><a href="https://osf.io/">OSF</a> is a free and open-source project management tool that makes it easy to collaborate throughout a project’s lifecycle. Although a portion of the group’s information and data are publicly visible on OSF, there is much viewable only to account holders with authorized access. As with GitHub, please check with project PIs and leads to ensure your OSF account has been granted access to all needed resources on the site.</p>
+</section>
+<section id="zotero" class="level3">
+<h3 data-anchor-id="zotero">4. Zotero</h3>
+<p><a href="https://www.zotero.org/user/register">Zotero account</a> is reference management software. Although the overall functionality of Zotero, is comparable to platforms such as <a href="https://www.mendeley.com/">Mendeley</a> and <a href="https://endnote.com/">EndNote</a>, Zotero provides a simple web browser to create shared reference libraries and citation data bases;this functionality is used to organize the <a href="https://geoepi.github.io/Notebook/zotero.html">group’s shared publications</a>. Even if you use different reference management software, you are encouraged to <a href="https://www.zotero.org/user/register">create a Zotero account</a> to access the group libraries.</p>
 
 
 </section>
@@ -348,13 +334,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./github_elements.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">GitHub Elements</span></span>
+      <a href="./proj_management.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Project Management</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./data_store.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data Storage</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./version_control.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Version Control</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

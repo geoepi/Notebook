@@ -24,16 +24,19 @@ editor_options:
   
 Accessing workflows, supporting information, and shared resources described in the [**Project Management** section](https://geoepi.github.io/Notebook/proj_management.html) may require creating individual user accounts on several platforms.  Although the needs for individual projects will vary, it is suggested to create accounts to access the services listed below.    
   
-### 1.    GitHub  
+### 1.    SCINet    
+The [Agricultural Research Service's **SCINet**](https://scinet.usda.gov/) program provides access to the ARS's High-Performance Computing Clusters, data storage at the National Agricultural Library, and a wide variety of other resources.  Access to non-ARS employees must be sponsored by an ARS scientist.  Once the need to access SCINet has been identified and,  if necessary, a sponsor has been identified, SCINet accounts can be [requested here](https://scinet.usda.gov/about/signup).     
+  
+### 2.    GitHub  
 If you don't have a GitHub account, please [create one](https://github.com).  Once you have a GitHub account, ensure that your GitHub username has been shared with project PIs and collaborators to be authorized access to repositories, the [GeoEpi team site](https://github.com/geoepi), and possibly the [USDA ARS Enterprise solution](https://github.com/USDA-REE-ARS).  
   
-### 2.    Overleaf  
+### 3.    Overleaf  
 [Overleaf](https://overleaf.com) is a collaborative online LaTeX editor to help write, edit, and publish scientific and technical documents.    
   
-### 3.    Open Science Framework (OSF)    
+### 4.    Open Science Framework (OSF)    
 [OSF](https://osf.io/) is a free and open-source project management tool that makes it easy to collaborate throughout a project's lifecycle.  Although a portion of the group's information and data are publicly visible on OSF, there is much viewable only to account holders with authorized access.  As with GitHub, please check with project PIs and leads to ensure your OSF account has been granted access to all needed resources on the site.  
   
-### 4.    Zotero    
+### 5.    Zotero    
 [Zotero account](https://www.zotero.org/user/register) is reference management software.  Although the overall functionality of Zotero, is comparable to platforms such as [Mendeley](https://www.mendeley.com/) and [EndNote](https://endnote.com/), Zotero provides a simple web browser to create shared reference libraries and citation data bases;this functionality is used to organize the [group's shared publications](https://geoepi.github.io/Notebook/zotero.html).  Even if you use different reference management software, you are encouraged to [create a Zotero account](https://www.zotero.org/user/register) to access the group libraries.  
   
 
